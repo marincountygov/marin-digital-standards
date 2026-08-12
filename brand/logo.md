@@ -1,5 +1,9 @@
 # Logo
 
+## Source file
+
+The official County logo is available at `https://www.marincounty.gov/themes/custom/marin_county/logo.png`. Store approved artwork locally in the project (e.g. `assets/logo.png`) and reference the local file — don't hotlink the County website's asset from another app. If no approved asset is available in a project, use text branding ("County of Marin") instead of generating fake logo art.
+
 ## Hierarchy
 
 1. **Primary Logo** — Civic Center symbol plus County of Marin logotype. First-choice representation of the County.
