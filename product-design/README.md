@@ -12,14 +12,14 @@ Standards for how Marin digital products are designed and structured — not the
 - Navigation
 - Responsive design
 
-## Planned files
+## Files
 
-- `principles.md`
-- `service-design.md`
-- `interaction-design.md`
-- `forms.md`
-- `errors-and-recovery.md`
-- `navigation.md`
-- `responsive-design.md`
+- [`principles.md`](principles.md) — the five-question service model, operating principles, default page structure.
+- [`service-design.md`](service-design.md) — the ten-stage resident journey, eligibility vs. requirements.
+- [`interaction-design.md`](interaction-design.md) — task-flow rules and flow types (linear/branching/channel-choice).
+- [`forms.md`](forms.md) — the service-design layer of forms/payments/uploads (see `content-design/forms-and-errors.md` for wording, `accessibility/forms.md` for structure).
+- [`errors-and-recovery.md`](errors-and-recovery.md) — confirmation/status messages and failure states.
+- [`navigation.md`](navigation.md) — findability, labels, placement, cross-linking, duplication/canonical pages.
+- [`responsive-design.md`](responsive-design.md) — intentionally thin; the mechanics are accessibility requirements, not a separate standard yet.
 
-Not yet populated — content is being migrated incrementally from `marinappsbrand/SPEC.md` and `marinskills/digital-service-design`.
+Distilled from `marinskills/digital-service-design` (in full) and the core principles/decision-rules of `marinskills/information-architecture-skill` (its subskill-level workflow detail hasn't had its own migration pass yet — flagged for later, similar to how `content-strategy` was handled).
