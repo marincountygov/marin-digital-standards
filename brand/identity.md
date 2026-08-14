@@ -23,7 +23,7 @@ MarinOS apps and documentation are a distinct visual sub-brand under the County 
 
 - Use the approved MarinOS product icon (the four-square mark) beside the product title on every app — see `marin-ui` for the exact SVG/markup.
 - Group the app title and subtitle with the standard Marin gold left border.
-- Every full page carries the standard MarinOS footer — the text `MarinOS`, linked to `https://marincountygov.github.io/marinos/`.
+- Every full page carries the standard MarinOS footer — the text `MarinOS`, linked to `https://marincountygov.github.io/marin-os/`.
 - Every full page carries a standard text-only Feedback control — no icon.
 - Let light/dark presentation follow the operating system preference; don't add a manual theme toggle.
 
