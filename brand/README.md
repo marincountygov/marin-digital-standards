@@ -7,6 +7,7 @@ Marin's visual identity rules — the source of truth for what the County brand 
 - Identity principles
 - Official County colors
 - Approved typefaces
+- MarinOS body/UI typography standard
 - Logo usage
 - Imagery rules
 
@@ -15,7 +16,7 @@ Marin's visual identity rules — the source of truth for what the County brand 
 - [`identity.md`](identity.md) — source and core principles, plus the MarinOS product-family identity notes.
 - [`logo.md`](logo.md) — hierarchy, non-negotiable rules, minimum size, placement.
 - [`color.md`](color.md) — County palette and permitted foreground/background pairings.
-- [`typography.md`](typography.md) — approved typefaces and hierarchy.
+- [`typography.md`](typography.md) — approved typefaces and hierarchy, including Open Sans as the MarinOS body/UI font.
 - [`imagery.md`](imagery.md) — photography and iconography (intentionally thin — the source guide doesn't cover this in depth).
 - [`mediums.md`](mediums.md) — how identity applies to email, presentations, reports, social, video, and forms. Not in the originally planned file set, added because this content didn't fit cleanly into the other five.
 
@@ -23,4 +24,3 @@ Distilled from `marinskills/brand-standards` (in full) and the MarinOS-specific 
 
 Note the distinction from `marin-ui/tokens`: this domain defines the official colors (e.g. Marin blue is `#0777cf`); `marin-ui` defines what that becomes as a semantic interface token (e.g. `--app-accent`) and how components consume it.
 
-Note the distinction from `marin-ui/tokens`: this domain defines the official colors (e.g. Marin blue is `#0777cf`); `marin-ui` defines what that becomes as a semantic interface token (e.g. `--app-accent`) and how components consume it.

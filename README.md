@@ -11,10 +11,14 @@ It does not contain implementation. CSS, JavaScript, components, app templates, 
 
 ## Domains
 
-- **[`product-design/`](product-design/)** — product design principles, service design, interaction design, forms, error recovery, navigation, responsive design.
+- **[`product-design/`](product-design/)** — product design principles, service design, interaction design, forms, error recovery, navigation, responsive design, and runtime dependency rules for application assets.
 - **[`content-design/`](content-design/)** — plain language, voice and tone, terminology, interface writing, inclusive language.
 - **[`accessibility/`](accessibility/)** — Marin's accessibility requirements and its interpretation of WCAG 2.2, including testing expectations.
-- **[`brand/`](brand/)** — Marin brand identity, color, typography, logo, and imagery rules.
+- **[`brand/`](brand/)** — Marin brand identity, color, typography, logo, and imagery rules, including Open Sans as the MarinOS body/UI font.
+
+## MarinOS typography and asset rule
+
+MarinOS applications use Open Sans as the body and user-interface font. The font must be self-hosted as a first-party WOFF2 asset supplied through `marin-ui`/`marin-app-template`; applications must not load fonts or static UI assets from Google Fonts, Adobe Fonts, jsDelivr, unpkg, cdnjs, or similar runtime CDN services. See `brand/typography.md` and `product-design/runtime-dependencies.md`.
 
 ## Ownership rule
 

@@ -11,6 +11,7 @@ What must be verified before publication. This is the policy — the step-by-ste
 - Higher-risk workflows (see `standard.md`'s "public-service workflows" section) get a screen reader spot check, not just an automated scan.
 - WAVE is Marin's standard automated-scan tool for web pages. Test against a locally served HTTP URL, not a raw `file://` path — the extension frequently can't evaluate local files without explicit permission, and a gray/unscored result usually means that, not that the page is clean.
 - A result from any single tool is never reported as a conformance claim on its own — see `standard.md`'s conformance language policy.
+- External font/CSS/JavaScript dependencies are checked as part of prepublication review for MarinOS apps; core interface assets should not depend on third-party CDNs to render. See `marin-digital-standards/product-design/runtime-dependencies.md`.
 
 ## WCAG mapping
 
