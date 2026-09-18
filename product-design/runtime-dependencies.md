@@ -61,6 +61,7 @@ Before publication, reviewers should verify that:
 ## Related standards
 
 - `marin-digital-standards/brand/typography.md` — approved typefaces and the MarinOS Open Sans body/UI font standard.
+- `marin-digital-standards/brand/iconography.md` — the approved Lucide icon system and the same self-hosting rule applied to icon libraries.
 - `responsive-design.md` — apps must remain usable on narrow viewports and at zoom; local assets must not introduce layout breakage.
 - `errors-and-recovery.md` — external data/API dependencies require clear failure states.
 - `marin-ui` — implementation source for the local `@font-face` declaration, body font token, and component CSS.
