@@ -22,6 +22,10 @@ Each app has exactly one icon, defined once and reused everywhere that app is re
 
 Before this standard, some apps had a distinctive icon in `catalog.json` but a generic favicon/header icon, or a generic icon everywhere. Pick the closest stock Lucide icon to what the app does; don't invent a bespoke shape when a reasonable match exists in Lucide's set.
 
+## No exceptions, including the MarinOS mark itself
+
+Every icon in the system is Lucide — there is no hand-drawn fallback anywhere, including the shared MarinOS banner mark (`.marinos-banner__icon`) and the `marinos-menu`/app-icon it's reused as. That mark is `layout-grid`, chosen as the closest structural match to the four-square shape it replaced. Treat any hand-drawn inline SVG found in a MarinOS app as a bug to fix, not a special case to preserve.
+
 ## Related standards
 
 - `typography.md` — the equivalent self-hosting rule for fonts.
