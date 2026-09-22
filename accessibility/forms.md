@@ -11,6 +11,7 @@ Forms are the highest-risk surface in most Marin products — this is where some
 - Errors are visible, specific, associated with the affected field, and written in plain language — "Enter an email address, such as name@example.com," not "Invalid input." Long forms get an error summary at the top, linking to each affected field.
 - Entered data survives a validation error — never clear the form and make someone start over because one field was wrong.
 - Use `autocomplete` attributes for common personal information (name, email, address) where applicable.
+- When the same control repeats once per item in a list (a per-row checkbox, a per-card select), its accessible name identifies which item it belongs to. A generic label repeated identically across every instance ("Select item," "Choose option") gives assistive technology users no way to tell them apart without navigating elsewhere first to find out — this applies even when the visible label stays short by design; the fuller identifying text can go in `aria-label` without changing what's shown on screen.
 - Avoid time limits on form completion unless truly necessary; where one exists, it's disclosed up front and extendable.
 - For legal, financial, benefits, permit, or other critical/irreversible submissions, provide a review-and-confirm step before final submission.
 - This applies the same way to a downloadable/fillable document form (PDF, Word) as it does to a web form — the medium doesn't change the requirement.

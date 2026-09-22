@@ -30,5 +30,8 @@ Marin requirements mapped to the WCAG 2.2 success criteria they satisfy. WCAG it
 | Iframes/embeds have a meaningful `title` | 4.1.2 Name, Role, Value |
 | Accessible alternative to CAPTCHA | 1.1.1 Non-text Content |
 | Documents (PDF/Office) have a tagged reading order and real structure | 1.3.1 Info and Relationships, 1.3.2 Meaningful Sequence |
+| Canvas/dynamically-rendered graphics (charts, generated diagrams) have a text alternative reflecting actual content, kept current as data changes | 1.1.1 Non-text Content |
+| Repeated per-item controls (one per list row/card) have distinguishing accessible names, not identical generic labels | 2.4.6 Headings and Labels, 4.1.2 Name, Role, Value |
+| ARIA role/state matches the control's actually-implemented behavior, not a claimed pattern | 4.1.2 Name, Role, Value |
 
 See `standard.md` for the underlying principle each row supports, and `keyboard.md`/`focus.md`/`forms.md`/`color-and-contrast.md`/`documents.md` for the full requirement text.
