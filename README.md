@@ -15,6 +15,7 @@ It does not contain implementation. CSS, JavaScript, components, app templates, 
 - **[`content-design/`](content-design/)** — plain language, voice and tone, terminology, interface writing, inclusive language.
 - **[`accessibility/`](accessibility/)** — Marin's accessibility requirements and its interpretation of WCAG 2.2, including testing expectations.
 - **[`brand/`](brand/)** — Marin brand identity, color, typography, logo, and imagery rules, including Open Sans as the MarinOS body/UI font.
+- **[`security/`](security/)** — Marin's security requirements for deployed MarinOS applications, security profiles, and what GitHub Pages hosting can and can't enforce.
 
 ## MarinOS typography and asset rule
 
