@@ -40,6 +40,10 @@ Same baseline as `public-web`, but the "high-risk application" scrutiny in `stan
 
 For anything that doesn't fit the above without distortion. A `custom` profile still needs every requirement it deviates from documented as an exception (control, reason, risk, owner, approval, expiration) per `standard.md` — `custom` is not a way to skip the exception process, it's an acknowledgment that the starting defaults weren't the right fit.
 
+## Profiles and audience
+
+An app's profile must fit its audience in `marin.yml`: `staff` apps use `internal`, `public` apps use `public-web` or `public-api`, and `developers` apps use `internal`, `public-web`, or `custom`. The public Security section does not hold its own label. It shows "Built for" followed by the audience, taken from `marin.yml`, so the two can never disagree.
+
 ## Choosing a profile
 
 Ask, in order: does it have a UI (`public-web`/`internal`) or not (`public-api`)? Does it require login (`authenticated`)? Is it meant for the public or for staff only (`public-web` vs. `internal`)? If none of those describe it honestly, use `custom` and document why.
