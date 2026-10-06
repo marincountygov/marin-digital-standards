@@ -2,7 +2,7 @@
 
 ## Which repos this covers
 
-This standard, `security.json`, and the App Shell apply to repos that publish a site people use: apps, docs sites, and the MarinOS platform itself (`deployment.target` is not `none` in `marin.yml`). Repos that only hold guidance, tools, or code for other repos to use (standards, skills, libraries) are not covered and need no `security.json`, `SECURITY.md`, or Security tab. A library's demo page does not change that.
+This standard, `security.json`, and the App Shell apply to repos that publish a site people use: apps, docs sites, and the MarinOS platform itself (`deployment.target` is not `none` in `marin.yml`). Repos that only hold guidance, tools, or code for other repos to use (standards, skills, libraries) are not covered and need no `security.json`, `SECURITY.md`, or Security tab. A library's demo page does not change that. If a demo page is built with the App Shell, it may keep the shell's Security tab and footer link as they are; there is no need to remove them or to release a new shell version for it.
 
 ## Default standard
 
