@@ -5,6 +5,8 @@ Forms are the highest-risk surface in most Marin products — this is where some
 ## Requirements
 
 - Every field has a visible, programmatically associated label (`<label for>`). A placeholder is never a substitute for a label — it disappears the moment someone starts typing and isn't reliably exposed to assistive technology.
+- A file input hidden behind a styled button (`visually-hidden`) still gets an accessible name (`aria-label`, or a `<label for>`) and `tabindex="-1"`, so keyboard users get one stop on the visible button instead of a second, invisible one.
+- `aria-label` and `aria-labelledby` are only valid on elements whose role allows a name. A plain `<div>` or `<span>` can't carry one — give it a role that does (for example `role="list"` with `role="listitem"` rows, or `role="group"`), or use a native element.
 - Required fields are identified in text ("Fields marked with an asterisk are required"), never by color or symbol alone.
 - Help text is associated with its field programmatically (`aria-describedby`), not just placed visually nearby.
 - Related controls (radio groups, checkbox groups) are grouped with `<fieldset>`/`<legend>` so the group's purpose is announced, not just each individual control.
