@@ -1,5 +1,9 @@
 # Security standard
 
+## Which repos this covers
+
+This standard, `security.json`, and the App Shell apply to repos that publish a site people use: apps, docs sites, and the MarinOS platform itself (`deployment.target` is not `none` in `marin.yml`). Repos that only hold guidance, tools, or code for other repos to use (standards, skills, libraries) are not covered and need no `security.json`, `SECURITY.md`, or Security tab. A library's demo page does not change that.
+
 ## Default standard
 
 Marin digital products default to the **`public-web`** security profile unless the application's nature calls for a different one — `public-api` for a service with no rendered UI, `authenticated` for anything behind a login, `internal` for staff-only tools not meant for public traffic, or `custom` when none of those fit and the deviation is documented. When it's unclear which profile applies, state the assumption explicitly rather than silently picking one. See `profiles.md` for what each profile actually requires.
