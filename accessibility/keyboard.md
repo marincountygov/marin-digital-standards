@@ -6,6 +6,7 @@ All interactive functionality must be operable with a keyboard alone — no exce
 
 - Every interactive element is reachable via Tab and Shift+Tab, in an order that matches visual and logical reading order.
 - Standard keys behave as expected: Enter and Space activate controls, Escape closes dialogs/menus, arrow keys and Home/End work where a pattern calls for them (tabs, menus, comboboxes).
+- Tabs follow the ARIA tabs pattern in full: only one tab is in the Tab order at a time (the selected one, or the first if none is selected), Left/Right arrows move between tabs and wrap, Home/End jump to the first/last tab, and the tablist contains only tabs. `marin-ui`'s `shared/app-shell.js` and the App Shell provide this for any `role="tablist"`; don't hand-write it per app. A toggle or link that sits beside the tabs for layout (a "Stats" view toggle) goes next to the `role="tablist"` element, not inside it.
 - No keyboard trap: a user can always tab into and back out of any component, including third-party embeds and modal dialogs.
 - If a component follows a known ARIA design pattern, it implements that pattern's full expected keyboard behavior — not just the role attribute.
 - Gestures (swipe, pinch, drag) always have a keyboard/button alternative for the same action; nothing critical is gesture-only.
