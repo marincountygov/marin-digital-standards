@@ -13,7 +13,7 @@ WCAG itself stays authoritative and external; this domain does not fork or copy 
 - Form accessibility requirements
 - Color and contrast requirements
 - Document accessibility requirements
-- Testing expectations (including WAVE usage)
+- Testing expectations (including automated scanning, accessibility-tree inspection, keyboard testing, and assistive-technology checks)
 
 ## Files
 
@@ -24,6 +24,6 @@ WCAG itself stays authoritative and external; this domain does not fork or copy 
 - [`forms.md`](forms.md)
 - [`color-and-contrast.md`](color-and-contrast.md)
 - [`documents.md`](documents.md) — PDF, Word, PowerPoint, and email.
-- [`testing.md`](testing.md) — what must be verified before publication (policy only; the testing workflow itself is a `marin-skills/accessibility-review` concern).
+- [`testing.md`](testing.md) — what must be verified before publication, including browser-computed accessibility semantics (policy only; the detailed testing workflow itself is a `marin-skills/accessibility-review` concern).
 
 Distilled from `marinskills/accessibility` (core + web + document-format skills) and the accessibility sections of `marinappsbrand/SPEC.md`. The source skills still contain the full review workflow, severity model, and finding format — that's Skill material, migrating to `marin-skills/accessibility-review` in a later phase — this domain keeps only the underlying requirements. Implementation of these requirements (the actual CSS/JS) lives in `marin-ui`.

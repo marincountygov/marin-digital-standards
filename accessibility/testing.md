@@ -4,8 +4,10 @@ What must be verified before publication. This is the policy — the step-by-ste
 
 ## Requirements
 
-- Automated scanning and manual review are both required before publishing anything higher-risk than a minor content edit — automated tools alone catch roughly a third of real issues and cannot evaluate keyboard behavior, reading order, or screen reader announcement quality.
+- Automated scanning and manual review are both required before publishing anything higher-risk than a minor content edit — automated tools alone catch roughly a third of real issues and cannot reliably evaluate keyboard behavior, reading order, browser-computed accessibility semantics, or screen reader announcement quality.
 - Every interactive page/component gets a keyboard-only pass: reach and operate everything using only Tab, Shift+Tab, Enter, Space, Escape, and arrow keys where applicable.
+- For rendered web pages and components, inspect the browser-computed accessibility tree as part of manual review. Verify that meaningful content and controls expose the expected roles, accessible names, descriptions, states, values, relationships, and structural hierarchy.
+- For interactive or dynamically updated components, verify the accessibility tree before and after interaction so changes in visible state are reflected programmatically. Do not infer the computed accessibility result solely from HTML, JavaScript, or author-supplied ARIA.
 - Contrast is verified numerically wherever exact color values are available, not eyeballed.
 - Zoom to 200% and narrow-viewport reflow are checked for any new page or significant layout change.
 - Higher-risk workflows (see `standard.md`'s "public-service workflows" section) get a screen reader spot check, not just an automated scan.
