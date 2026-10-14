@@ -26,6 +26,8 @@ Good link text names the destination or the action, not the mechanism of clickin
 
 Button text describes the action it performs — *"Submit application,"* not *"Submit"* alone if the page has more than one thing being submitted; *"Save draft"* vs. *"Send"* when both exist. Avoid vague action text (*Submit, OK, Click here*) when a more specific verb phrase is available.
 
+Do not use "view" in button or link text (*View details*, *View all*, *View learning set*). Name the action or destination instead. When a card has one destination, make its title the link, as on the MarinOS home page, rather than adding a separate button.
+
 ## Related standards
 
 - `plain-language.md` for organization, sentence structure, and the reasoning behind "answer the reader's question, don't just label the topic."
