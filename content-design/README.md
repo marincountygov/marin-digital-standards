@@ -10,6 +10,7 @@ Standards for how Marin writes for digital products — plain language, tone, te
 - Interface writing
 - Forms and errors (copy, not visual layout)
 - Inclusive language
+- Learning content (Notes, decks, quizzes)
 
 ## Files
 
@@ -21,5 +22,6 @@ Standards for how Marin writes for digital products — plain language, tone, te
 - [`interface-writing.md`](interface-writing.md) — headings, descriptions, links, buttons.
 - [`forms-and-errors.md`](forms-and-errors.md) — wording, not structure (see `accessibility/forms.md` for structure).
 - [`content-patterns.md`](content-patterns.md) — content types, page purpose types, placement/tagging.
+- [`learning-content.md`](learning-content.md) — Notes, the decks built from them, and quizzes: structure, limits, and writing rules.
 
 Distilled from `marinskills/plain-language` and `marinskills/inclusive-language-skill` in full, and selectively from `marinskills/content-strategy` (principles and patterns only — its audit/lifecycle/editorial-calendar workflow content stays in `marin-skills` as governance-skill material, not migrated here). Also folds in two rules that were previously misfiled under the brand skill (`interface-writing.md`'s heading-case and description rules) since they're genuinely content-design concerns, not visual identity.
