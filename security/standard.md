@@ -34,6 +34,8 @@ A profile's requirements are written against this reality. Marking a header-depe
 
 State a baseline restrictive policy and let an application add only what it specifically needs — never the reverse. Avoid `unsafe-eval`, `unsafe-inline`, and unrestricted `*` in any directive; where a specific dependency genuinely requires one (e.g., a third-party script that requires inline execution), that's a documented exception, not a default.
 
+Adding a third-party host (for example, a map tile server in `img-src`) is an app-specific addition: name the exact host, record the reason and the privacy effect (the host sees visitors' IP addresses) in the product's decision log and security information, and regenerate the policy from `security.json`. Do not widen a directive to a wildcard to make it work. See `product-design/maps.md`.
+
 Because CSP here is delivered via `<meta>` (see above), `frame-ancestors` is not enforceable this way — clickjacking protection for these apps is a known, standing gap on the current hosting stack, not something the CSP directive list can paper over.
 
 ## Authentication, authorization, and data

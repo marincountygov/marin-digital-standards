@@ -28,6 +28,8 @@ Marin requirements mapped to the WCAG 2.2 success criteria they satisfy. WCAG it
 | Motion respects `prefers-reduced-motion` | 2.3.3 Animation from Interactions |
 | Captions and transcripts for video/audio | 1.2.2 Captions (Prerecorded), 1.2.1 Audio-only and Video-only (Prerecorded) |
 | Iframes/embeds have a meaningful `title` | 4.1.2 Name, Role, Value |
+| Map records are also available as a text list, with named, keyboard-operable markers | 1.1.1 Non-text Content, 1.3.1 Info and Relationships, 2.1.1 Keyboard, 4.1.2 Name, Role, Value |
+| Map pan and zoom do not need a drag or pinch alone, and do not trap page scrolling | 2.5.1 Pointer Gestures, 2.1.2 No Keyboard Trap |
 | Accessible alternative to CAPTCHA | 1.1.1 Non-text Content |
 | Documents (PDF/Office) have a tagged reading order and real structure | 1.3.1 Info and Relationships, 1.3.2 Meaningful Sequence |
 | Canvas/dynamically-rendered graphics (charts, generated diagrams) have a text alternative reflecting actual content, kept current as data changes | 1.1.1 Non-text Content |
