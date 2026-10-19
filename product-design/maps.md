@@ -31,10 +31,12 @@ A map reads the same filtered records as the product's other views. It has no fi
 ## Markers and selection
 
 - Use one marker style for every location. Do not use color, shape, or size to mean status, type, project, or anything else.
-- Records at exactly the same coordinates share one marker, and the marker's name says how many records it holds. Do not add clustering until the data volume needs it.
+- Records at exactly the same coordinates share one marker, and the marker's name says how many records it holds.
+- **Clustering.** Group nearby markers into a cluster so overlapping markers do not hide each other; a single location stays a marker. Every cluster has one look, shows its count as text, and is named by what it holds (locations and records). Choosing a cluster zooms in. Do not use a hover-only coverage area, and do not color or size clusters to mean anything.
 - Choosing a marker shows that location's details as ordinary page content next to or below the map, not in a small popup that is hard to read, reach, or dismiss on a phone.
 - Choosing a marker is the same action for a mouse, a finger, and a keyboard.
 - Offer a way to clear the selection and to re-center the map on all markers.
+- **Full window.** A map may offer a full-window view: it fills the browser window (it does not use the browser's fullscreen mode), keeps the selected location's details and controls available, and closes with a visible control and the Escape key. Closing returns the person to where they were.
 - Put the selected location in the page address so a link shares what the person sees.
 
 ## Counts and missing locations
