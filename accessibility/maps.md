@@ -4,7 +4,7 @@ A map is an alternate visualization of data. It must never be the only way to re
 
 ## Requirements
 
-- **Text alternative.** Every record on the map is reachable in the product's list. The map also has a text list of its locations that selects the same details as the markers.
+- **Text alternative.** Every record on the map is reachable in the product's list. The map also has a text alternative that lists its locations (a list or a dropdown, in alphabetical order, with an "all locations" default) and selects the same details as the markers.
 - **Marker names.** Every marker has an accessible name that says what it is: the event and place for one record, the place and how many records for a shared location. Never "Marker" or "Map pin".
 - **Role and keyboard.** A marker is a button. Tab reaches it, and Enter and Space choose it. A library that does not do this for you needs the behavior added.
 - **Screen readers.** A marker chosen with a screen reader's activation command behaves like a keyboard choice, not like a mouse click.

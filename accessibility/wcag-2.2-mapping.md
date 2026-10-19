@@ -29,6 +29,8 @@ Marin requirements mapped to the WCAG 2.2 success criteria they satisfy. WCAG it
 | Captions and transcripts for video/audio | 1.2.2 Captions (Prerecorded), 1.2.1 Audio-only and Video-only (Prerecorded) |
 | Iframes/embeds have a meaningful `title` | 4.1.2 Name, Role, Value |
 | Map records are also available as a text list, with named, keyboard-operable markers | 1.1.1 Non-text Content, 1.3.1 Info and Relationships, 2.1.1 Keyboard, 4.1.2 Name, Role, Value |
+| A map cluster is a named button operated with Enter and Space, and focus is not lost when it splits | 2.1.1 Keyboard, 4.1.2 Name, Role, Value, 2.4.3 Focus Order |
+| A full-window map is a named modal dialog that Escape closes and returns focus from | 2.4.3 Focus Order, 4.1.2 Name, Role, Value, 2.1.2 No Keyboard Trap |
 | Map pan and zoom do not need a drag or pinch alone, and do not trap page scrolling | 2.5.1 Pointer Gestures, 2.1.2 No Keyboard Trap |
 | Accessible alternative to CAPTCHA | 1.1.1 Non-text Content |
 | Documents (PDF/Office) have a tagged reading order and real structure | 1.3.1 Info and Relationships, 1.3.2 Meaningful Sequence |
