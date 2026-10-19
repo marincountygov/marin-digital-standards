@@ -18,6 +18,10 @@ The concrete mechanics of responsive behavior are accessibility requirements, no
 
 A header or nav bar must not be `position: sticky` or `fixed` while the page scrolls — it scrolls away with the rest of the content like everything else. This applies to every page-level header (`marin-ui`'s `.app-header`, `.site-header`, and the MarinOS banner). A sidebar "on this page" reference list (`.toc`/`.docs-toc`) is a different, accepted pattern — a side list that scrolls alongside the reader isn't the same as a persistent top bar, and may stay sticky.
 
+## A filter panel can be collapsed
+
+When a page has a side panel of filters next to its results, the person can hide it, at every screen width, so the results can use the whole row. Hiding the panel never clears or changes the filters, and the page still says that filters are active (a count on the control, and the summary of what is shown). The control is a button with a name that stays the same ("Filters"), a state exposed with `aria-expanded`, and an icon that shows whether the panel is open or hidden; it sits where it is still there when the panel is hidden, and keeps focus when used. A hidden panel is removed from the keyboard order. On narrow screens the panel starts hidden; on wide screens it starts open and the person's choice may be remembered in the browser. Anything that depends on the width of the results (a map, a chart) measures itself again when the panel changes.
+
 ## What this document doesn't yet cover
 
 Breakpoint strategy, content-priority reordering for narrow viewports, and image/asset responsiveness aren't established as County-wide standards yet — these are currently `marin-ui` implementation choices rather than policy. Add to this document if a genuine cross-product standard emerges.
