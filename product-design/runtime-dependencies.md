@@ -47,6 +47,7 @@ This includes `<link>`, `@import`, `@font-face src`, `<script>`, and copy-pasted
 - Assets supplied through `marin-ui` and copied into the consuming application.
 - Links that take a user to an external website, when the link is content/navigation rather than an asset required to render the app.
 - Documented data or API integrations that are part of the service, provided the app has clear loading, unavailable, and recovery states.
+- Map tile images from a chosen basemap provider, treated as map content under `maps.md`: the host is recorded in the decision log and the content security policy, and the map has a text alternative if the tiles do not load. The map library itself is still vendored.
 
 ## Review expectations
 

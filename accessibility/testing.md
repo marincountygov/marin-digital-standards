@@ -15,6 +15,7 @@ What must be verified before publication. This is the policy — the step-by-ste
 - Lighthouse accessibility testing through the PageSpeed Insights API runs weekly for every MarinOS app (`marin-os`'s `data/lighthouse.json`, shown on each app's Accessibility section) and can be re-run on demand. It supplements WAVE and manual review; it doesn't replace them. It tests the live production site in light mode only, so dark mode, keyboard behavior, and anything behind interaction still need manual checks.
 - Fix automated findings by cause, not by silencing the rule: a control that needs a label gets a label, not an `aria-hidden`.
 - A result from any single tool is never reported as a conformance claim on its own — see `standard.md`'s conformance language policy.
+- A map gets the additional checks in `maps.md`: keyboard-only workflow, accessibility tree, screen reader activation of a marker, and touch.
 - External font/CSS/JavaScript dependencies are checked as part of prepublication review for MarinOS apps; core interface assets should not depend on third-party CDNs to render. See `marin-digital-standards/product-design/runtime-dependencies.md`.
 
 ## WCAG mapping
