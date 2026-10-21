@@ -7,6 +7,7 @@ The service-design layer of a form, application, payment, upload, signature, or 
 - Explain who should use the form before asking for information.
 - State estimated completion time, required documents, fees, and deadlines *before* the form starts.
 - Ask only for information needed to complete the service — every extra field costs every single person who fills it out.
+- A form does only what the form does: fields, labels, help, and its buttons. No decorative icons, illustrations, or other embellishments that carry no function.
 - Group related fields together; label them using terms residents understand.
 - Explain why sensitive or unusual information is needed.
 - Preserve the resident's work when errors occur, wherever technically possible.
