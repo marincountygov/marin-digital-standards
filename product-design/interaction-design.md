@@ -11,6 +11,14 @@ Turning a service into a concrete sequence of resident actions.
 - State what the resident needs *before* each step and what they receive *after* it.
 - Never present a County back-office step as a resident step unless the resident must act on it.
 
+## Buttons
+
+- **One quiet look for secondary buttons.** A button that does something other than submit a form (Copy, Link, Download, Reset, Next) uses one shared design: no fill, a border on hover. Only a button that submits a form is solid blue or dark. A call to action that opens a form is the one other solid button on a page.
+- **Icon-only where the icon is clear.** A secondary button shows an icon and no text. Its name is set with `aria-label` and the same words appear as a hover tooltip (`title`). A button that carries a word because the owner asked (for example "Learn more") keeps the word and adds an icon after it.
+- **Cluster related buttons.** Buttons for related actions (Copy, Link, Download) sit together in one labeled group, not scattered.
+- **Space the buttons people press often.** A pair pressed often or on touch, such as Previous and Next, is two separate buttons with a gap between them and a target of 44 by 44 pixels. Do not join them edge to edge: people with limited fine motor control, or wide fingers, press the wrong one.
+- **A form does only form functions.** No decorative icons or other embellishments (see `forms.md`).
+
 ## Flow types
 
 - **Linear flow** — every resident follows the same path. Example: check eligibility → gather documents → complete application → pay → submit → save confirmation → wait for review.
