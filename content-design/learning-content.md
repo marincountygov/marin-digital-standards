@@ -11,6 +11,8 @@ These standards add to [`plain-language.md`](plain-language.md), [`voice-and-ton
 - **Audience:** a County executive or staff member. Explain any term the reader might not know the first time it appears.
 - **Practical first:** say what the reader can do with the idea. Prefer government examples.
 - **Source rule:** use only sources you have read. Never invent an example, a citation, a quote, or a statistic. If a source cannot be read, leave it out and say so. Examples are supplied by the owner. An empty Examples or Sources section is hidden, not filled in.
+- **Spell out acronyms in descriptions.** Do not use an acronym in a short description, course description, or deck or quiz description unless the heading already spells it out. A course titled "API 101" does not, so its descriptions say "application programming interface."
+- **No general assumptions.** Say only what a source you read says. Do not claim how common something is ("many," "often," "most") or what people do, unless a source says so.
 - **No emoji** in the content itself.
 - **Labels:** do not use the word "view" in buttons or links (see `interface-writing.md`).
 
