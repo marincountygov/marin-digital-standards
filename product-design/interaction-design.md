@@ -13,10 +13,14 @@ Turning a service into a concrete sequence of resident actions.
 
 ## Buttons
 
-- **One quiet look for secondary buttons.** A button that does something other than submit a form (Copy, Link, Download, Reset, Next) uses one shared design: no fill, a border on hover. Only a button that submits a form is solid blue or dark. A call to action that opens a form is the one other solid button on a page.
-- **Icon-only where the icon is clear.** A secondary button shows an icon and no text. Its name is set with `aria-label` and the same words appear as a hover tooltip (`title`). A button that carries a word because the owner asked (for example "Learn more") keeps the word and adds an icon after it.
-- **Cluster related buttons.** Buttons for related actions (Copy, Link, Download) sit together in one labeled group, not scattered.
-- **Space the buttons people press often.** A pair pressed often or on touch, such as Previous and Next, is two separate buttons with a gap between them and a target of 44 by 44 pixels. Do not join them edge to edge: people with limited fine motor control, or wide fingers, press the wrong one.
+- **Quiet by default.** A button that does something other than submit a form (Copy, Link, Download, Reset, Next) uses one shared quiet design: no fill, a border on hover. Only the button for the main result of a screen is solid blue or dark: the one that submits a form or finishes the task ("Anonymize and download," "Create encrypted ZIP"). A screen has at most one solid button. Choosing a file, clearing, resetting and the like are quiet. A call to action that opens a form is also solid.
+- **Icon-only for repeated utility actions.** Copy, Link, Download, Reset, Undo and Redo, Add, Delete, Next and Previous, and Show password show an icon and no text. The name is set with `aria-label` and the same words appear as a hover tooltip (`title`).
+- **Keep the words** on the one main action of a screen, on dialog buttons (Cancel, Close, Save, Discard changes), and on anything without a clear, familiar icon (Choose file, Generate password). A word button is still quiet unless it is the main action, and an icon may follow the word ("Learn more" with an arrow).
+- **Danger is quiet until pointed at.** A button that deletes or discards turns red on hover and focus, and its name says what it removes. A confirmation dialog names the thing and uses words.
+- **Cluster related buttons.** Buttons for related actions sit together in one labeled group, not scattered.
+- **Space the buttons people press often.** A pair pressed often or on touch, such as Previous and Next, is two separate buttons with a gap and a 44 by 44 pixel target. Do not join them edge to edge: people with limited fine motor control, or wide fingers, press the wrong one.
+- **Tabs, filter chips and sort headers are not action buttons.** Tabs switch the view and show the chosen tab with `aria-selected`. Filter chips are toggles with `aria-pressed`. A sortable column header is a button that reads as the header text, with `aria-sort` on the header cell.
+- **A button that opens a menu** (Share, Download with more than one format) is an icon button with a caret, `aria-expanded` and `aria-controls`. A single action does not need a menu.
 - **A form does only form functions.** No decorative icons or other embellishments (see `forms.md`).
 
 ## Flow types
