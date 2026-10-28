@@ -23,7 +23,7 @@ State: the amount or how it's calculated · due date · accepted payment methods
 
 ## Uploads and attachments
 
-State: exact document names or acceptable alternatives · accepted file types and size limits · whether photos are accepted · whether originals, scans, or copies are required · what happens if documents are missing or unreadable.
+State: exact document names or acceptable alternatives · accepted file types and size limits · whether photos are accepted · whether originals, scans, or copies are required · what happens if documents are missing or unreadable. For the upload screen itself, see `text-characters-copy-and-upload.md`.
 
 ## Field-level review
 

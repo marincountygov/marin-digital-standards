@@ -13,6 +13,7 @@ Standards for how Marin digital products are designed and structured — not the
 - Responsive design
 - Runtime dependency rules for application assets
 - Maps
+- Text, characters, copy and upload
 
 ## Files
 
@@ -24,6 +25,7 @@ Standards for how Marin digital products are designed and structured — not the
 - [`navigation.md`](navigation.md) — findability, labels, placement, cross-linking, duplication/canonical pages.
 - [`responsive-design.md`](responsive-design.md) — intentionally thin; the mechanics are accessibility requirements, not a separate standard yet.
 - [`runtime-dependencies.md`](runtime-dependencies.md) — local-first rules for fonts, CSS, JavaScript libraries, and other static application assets.
+- [`text-characters-copy-and-upload.md`](text-characters-copy-and-upload.md) — clean HTML on the clipboard, reading and saving files, plain characters for a CMS, and the one upload pattern.
 - [`maps.md`](maps.md) — when to use a map, location data rules, basemap choice, markers, counts, scrolling, and privacy.
 
 Distilled from `marinskills/digital-service-design` (in full) and the core principles/decision-rules of `marinskills/information-architecture-skill` (its subskill-level workflow detail hasn't had its own migration pass yet — flagged for later, similar to how `content-strategy` was handled).
