@@ -19,6 +19,10 @@ Never pair white text on Light Gray or Gold. Never pair black text on Dark Gray,
 
 Light Gray and Gold are never used as font/text colors — only as backgrounds.
 
+## Solid buttons
+
+The solid button, the main action of a screen, is Blue (`#0777cf`) with white text. In dark mode it is the light accent (`#8fcaff`) with dark text. Do not use a framework's stock blue; it is not a palette color.
+
 ## How to apply color
 
 - Use palette colors for identity, structure, emphasis, and wayfinding — not decoration.
