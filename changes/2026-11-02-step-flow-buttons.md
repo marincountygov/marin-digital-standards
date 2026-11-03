@@ -6,6 +6,6 @@ Affected standards:
 
 - `product-design/interaction-design.md`
 
-Implementation is in Marin Mentions reports and Marin Spec. The shell draws the arrows (`data-icon-end`, `data-icon`) but sizes declarative icons only inside `.action-button`, so both apps size the arrow on the solid Next button themselves until the shell does the same.
+Implementation is in Marin Mentions reports and Marin Spec. The shell draws the arrows (`data-icon-end`, `data-icon`). Marin App Shell 1.23.0 sizes the arrow on the solid Next button; an app on an older release sizes it itself.
 
 Where the steps sit is a layout choice, not a standard: a short flow inside one feature shows its steps as a row above the content (Marin Mentions reports), and an app whose whole workflow is the steps puts them in the collapsible left column (Marin Spec). Both number the steps "1. Name" and highlight the current one.
