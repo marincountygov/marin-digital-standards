@@ -28,6 +28,17 @@ Turning a service into a concrete sequence of resident actions.
 - **A button that opens a menu** (Share, Download with more than one format) is an icon button with a caret, `aria-expanded` and `aria-controls`. A single action does not need a menu.
 - **A form does only form functions.** No decorative icons or other embellishments (see `forms.md`).
 
+## Filtering, sorting and saying what is shown
+
+Every page with a filter column beside a list of results looks and works the same, so people who learn one know the next. `marin-mentions` and `marin-reach` are the references.
+
+- **The filter column is titled "Filter".** Just that word, with the Reset icon button beside it. Not "Filter Mentions", "Filter software" or "Filter vendors".
+- **Search is the first field** in the filter column, labelled "Search". It never goes in the toolbar.
+- **Sort is a group of icon buttons in the toolbar,** not a dropdown in the filter column. Each button is named by `aria-label` and `title` ("Value, high to low", "Name, A to Z"), shows the active sort with `aria-pressed`, and sits in a group labelled "Sort". The group comes first in the toolbar, before Copy link, Copy and Download. Offer a sort for each thing people compare: name (A to Z, Z to A), amount or size (high to low, low to high), date (newest, oldest). Hide the group on a view with nothing to sort, such as charts.
+- **Reset returns to the starting view.** The Reset icon in the filter column deselects every filter, clears the search, restores a choice of one to its default (the latest, even if that means opening another page), collapses every filter group and goes back to the first tab. It does not change sort or view.
+- **One "Showing:" line says what is on screen.** It sits under the tabs and above the toolbar, in bold, and reads "Showing: All departments · All types · Any status · All years (1,648 vendors, 5,236 contracts — Active 2,129, Terminated 3,107)": each filter in order (its choice, or its "All" words), then the count in brackets with a short breakdown. It is the only count. Do not add "N of M results" above or below the list, filter chips, or buttons for it. The line is a live region (`aria-live="polite"`) so a screen reader hears it change. Every filter in the column is part of it, including a choice of one such as the year, and the breakdown is never left out, even when every value but one is zero.
+- **The sort, the filters and the view are in the address,** so the Copy link button shares exactly what is on screen.
+
 ## Flow types
 
 - **Linear flow** — every resident follows the same path. Example: check eligibility → gather documents → complete application → pay → submit → save confirmation → wait for review.
