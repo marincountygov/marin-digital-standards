@@ -4,6 +4,25 @@
 
 Don't alternate between *resident, applicant, customer, participant, beneficiary,* and *client* for the same person unless those categories are meaningfully different in context. Picking one term and using it consistently throughout a piece of content, and ideally across related content, reduces the reader's cognitive load — an alternating term reads as though it might mean something different each time.
 
+## Places, facilities and events
+
+Use these names for places in every app, filter, heading and page. The County keeps the list in Marin Data (`organizations/place-kinds.json`), so an app reads the names from there and does not spell them out itself.
+
+| Term | Means | Group name |
+| --- | --- | --- |
+| Place | A territory: a district, a city or town, a community, or the county | Places |
+| District | A supervisorial district. Say "District 3", not "Marin District 3" or "Supervisorial District 3". The full official name belongs in the details. | Districts |
+| City or town | An incorporated city or town | Cities and towns |
+| Community | An unincorporated community. Say "Communities", not "Unincorporated communities" or "Towns". | Communities |
+| Facility | A building or site the County uses, such as the Civic Center | Facilities |
+| Venue | Where an event is held. A venue can be a facility or somewhere else. | Venues |
+| Event | A gathering with a date | Events |
+
+- A filter on territory is named **Place**, and its "all" choice is "All places".
+- A field that takes a place or a facility is named **Place or facility**.
+- A list of venues is named **Venues**.
+- Don't use "Location" for a territory or a venue. Say "map point" for a point on a map, and "address" for an address.
+
 ## Requirement words have defined meaning
 
 | Word | Meaning |
