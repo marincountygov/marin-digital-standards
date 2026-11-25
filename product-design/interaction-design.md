@@ -66,7 +66,7 @@ A workflow of several steps, where the whole app is the sequence (a guided proce
 
 ## Cards
 
-- **One card.** Every card is the same surface in every app: a border, a soft shadow, and the same padding and corners. An app does not redraw a card's surface. The one variant is a quieter card for a second-level list.
+- **One card.** Every card is the same surface in every app: a border, a soft shadow, and the same padding and corners. An app does not redraw a card's surface. A card whose colors change with a state (for example one that fades its edge while idle) changes them through the card's three color properties, not by restyling it. The one variant is a quieter card for a second-level list, and a card that holds one main thing may have more padding.
 - **A card is for a thing a person picks.** Text a person reads (a document, an "On this page" list, a step's part) goes in a plain bordered box with no shadow, so a page of items and a page of reading look different at a glance.
 - **Three sizes on a card, the same everywhere:** the name 1.25rem and bold, the text 1rem, a small line 0.875rem and regular weight.
 - **The name opens the page of the thing.** A card has no badges except a status, shown with the shared status badge. A kind, category, type or department is text or a filter, not a badge.
