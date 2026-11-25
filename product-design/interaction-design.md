@@ -47,6 +47,20 @@ Every page with a filter column beside a list of results looks and works the sam
 - **Service areas, departments and agencies run A to Z.** Wherever a list, table, card grid, chart or filter group names service areas, departments, divisions, agencies or other County bodies, they are in alphabetical order by name, and a list of them opens sorted by name ("Name, A to Z" is the pressed sort). Other sorts stay available. A chart titled as a ranking ("Largest departments") may order by amount. A page that reproduces a printed book (a schedule) keeps the book's order.
 - **Stats shows only what is relevant to the filter.** A summary of the whole (such as the County overview) appears under Stats only while nothing narrows the selection (no search and no filter choice; the year is not a filter). Once a filter is chosen, Stats shows the figures for that selection alone.
 
+## Steps layout
+
+A workflow of several steps, where the whole app is the sequence (a guided process, a wizard), shows the steps in a list, shows one step at a time, and says where the person is.
+
+- **List the steps in a collapsible vertical column** beside the step. Number them in the words ("1. Prepare"), never in a circle or other shape. No icons or images in the list.
+- **Say the state in words.** Each step reads "Completed", "Current" or "Up next". Color, bold weight and a bar on the edge may reinforce the words but never carry the meaning alone (WCAG 1.4.1). Every color pair meets the contrast minimum in light and dark mode.
+- **Completed means earlier.** The steps before the current one read as completed. The app does not save progress to say so.
+- **Let people go anywhere.** Any step can be opened at any time, to go back or to skip ahead. Previous and Next follow the button rules above.
+- **Show where the person is** with a line such as "Step 2 of 6: Analyze" and a progress bar. The line is a polite status for screen readers.
+- **Give each step the same parts:** a heading, a one-line intro, then bordered sections for what to do, any fields or actions, and what comes next. Fields follow `forms.md`.
+- **Add "On this page"** for the current step: links to its sections, in words that still make sense read alone.
+- **Work without script and in print.** Without JavaScript every step shows and the list links jump down the page. Print shows every step.
+- **Move focus to the step heading** when the person changes step, and keep the step in the address so Back and shared links work.
+
 ## Flow types
 
 - **Linear flow** — every resident follows the same path. Example: check eligibility → gather documents → complete application → pay → submit → save confirmation → wait for review.
