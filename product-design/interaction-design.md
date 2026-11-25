@@ -64,6 +64,15 @@ A workflow of several steps, where the whole app is the sequence (a guided proce
 - **Move focus to the step heading** when the person changes step, including with the browser's Back and Forward, and keep the step in the address so Back and shared links work.
 - **Name the step in the page title,** such as "Marin Spec: Resolve (step 3 of 6)", and restore the page's own title on any other tab (WCAG 2.4.2).
 
+## Cards
+
+- **One card.** Every card is the same surface in every app: a border, a soft shadow, and the same padding and corners. An app does not redraw a card's surface. The one variant is a quieter card for a second-level list.
+- **A card is for a thing a person picks.** Text a person reads (a document, an "On this page" list, a step's part) goes in a plain bordered box with no shadow, so a page of items and a page of reading look different at a glance.
+- **Three sizes on a card, the same everywhere:** the name 1.25rem and bold, the text 1rem, a small line 0.875rem and regular weight.
+- **The name opens the page of the thing.** A card has no badges except a status, shown with the shared status badge. A kind, category, type or department is text or a filter, not a badge.
+- **A card shows what identifies the thing and its one or two figures.** Everything else is on the thing's own page.
+- **A list of cards** is one column with 1rem between cards, or two or three columns that become one on a narrow screen. Names on cards are written as a department's are, not in the capitals the data has.
+
 ## Flow types
 
 - **Linear flow** — every resident follows the same path. Example: check eligibility → gather documents → complete application → pay → submit → save confirmation → wait for review.
