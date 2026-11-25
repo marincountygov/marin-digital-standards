@@ -31,7 +31,7 @@ The font must not be loaded from `fonts.googleapis.com`, `fonts.gstatic.com`, Ad
 
 For most County materials: one clear primary title, short section headings, body text visually subordinate to headings, and consistent treatment of labels/captions/dates/source notes. Avoid excessive bold, all-caps, underlining, drop shadows, outlines, and other decorative effects — restraint is the standard, not an afterthought.
 
-**An h1 has one of two sizes.** The app title (the h1 in the app header) is 1.35rem to 1.75rem. The page title (the h1 of a page's own content: a document, a guide, a report, a landing page) is 1.75rem to 2.25rem, smaller on small screens. A page has one h1. Apps use the two `marin-ui` tokens (`--app-h1-app`, `--app-h1-page`) and do not set an h1 size of their own.
+**An h1 has one of two sizes.** The app title (the h1 in the app header) is 1.35rem to 1.75rem. The page title (the h1 of a page's own content: a document, a guide, a report, a landing page) is 1.75rem to 2.25rem, smaller on small screens. A page has one h1. The app's home page has the app title as its h1. A page below the home page that has its own title (a guide, a regulation, a procedure, a report) has that title as its one h1, and its header shows the app name as plain text that still links home. Apps use the two `marin-ui` tokens (`--app-h1-app`, `--app-h1-page`) and do not set an h1 size of their own.
 
 For MarinOS applications, preserve hierarchy primarily through semantic heading levels, scale, weight, line-height, spacing, and the standard `marin-ui` tokens. Do not create a custom font hierarchy inside a single app unless the design has been approved as a specific exception.
 
