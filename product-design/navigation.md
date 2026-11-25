@@ -2,6 +2,13 @@
 
 Findability, wayfinding, and site structure — helping a resident get from "I have a need" to "I found the right page" and back out again.
 
+## The app header and the standard pages
+
+- **The header holds only the app's own tabs.** About, Updates, Security, Accessibility and Tech are not in the header. Every app has all five in its footer, in the same order, so people find them in the same place everywhere and the header stays for the task.
+- **An app with no tabs of its own has no Menu button** and no empty navigation. The header is the app's name and what it does.
+- **The MarinOS menu** (the apps list in the banner) is a single vertical list on a narrow screen and a wide horizontal grid with more room between items on a large one. It is the same links and the same keyboard behavior either way. An app that is marked unlisted in the MarinOS catalog is not in it.
+- **A page that features apps** (the MarinOS home page) shows the featured apps in an Apps section with a link to a page of every app. A card shows its status only; there is no "Featured" badge, because the section is what features an app.
+
 ## The four questions navigation must answer
 
 1. Am I in the right place?
