@@ -6,6 +6,7 @@ Added to the interaction design page, "Steps layout":
 - Each step says "Completed", "Current" or "Up next" in words. Color, weight and a bar only reinforce the words.
 - No circles, numbers in shapes or icons in the list.
 - Completed means earlier than the current step, and nothing is saved.
+- Every step ends with Previous and Next, made by the layout, with the accessibility rules for both buttons.
 - Any step can be opened at any time. The page shows "Step 2 of 6" with a progress bar and "On this page" for the current step.
 
 Affected standards:
