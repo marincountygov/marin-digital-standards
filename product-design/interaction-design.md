@@ -56,11 +56,12 @@ A workflow of several steps, where the whole app is the sequence (a guided proce
 - **Completed means earlier.** The steps before the current one read as completed. The app does not save progress to say so.
 - **Let people go anywhere.** Any step can be opened at any time, to go back or to skip ahead.
 - **End every step with Previous and Next,** made by the shared layout, not written by each app. They follow the button rules above, and in a steps layout they also meet these accessibility rules: Next shows its words, so its accessible name is its visible label (WCAG 2.5.3); Previous is icon-only and named "Previous: prepare" by `aria-label` and `title`; the arrows are decoration hidden from assistive technology; each target is at least 44 by 44 pixels with a gap between (2.5.8); both are real buttons in the tab order, in a navigation named "Previous and next step", after the step's content; a visible focus ring of at least 2 pixels, in forced colors too (2.4.7, 2.4.11); both keep a border in forced colors; the first step has no Previous and the last has no Next, and neither is ever disabled; no keyboard shortcut is added (2.1.4).
-- **Show where the person is** with a line such as "Step 2 of 6: Analyze" and a progress bar. The line is a polite status for screen readers.
+- **Show where the person is** with a line such as "Step 2 of 6: Analyze" and a progress bar. Announce a change of step once: move focus to the step heading and describe the heading by its position ("Step 2 of 6"), rather than also making the line a live region.
 - **Give each step the same parts:** a heading, a one-line intro, then bordered sections for what to do, any fields or actions, and what comes next. Fields follow `forms.md`.
 - **Add "On this page"** for the current step: links to its sections, in words that still make sense read alone.
 - **Work without script and in print.** Without JavaScript every step shows and the list links jump down the page. Print shows every step.
-- **Move focus to the step heading** when the person changes step, and keep the step in the address so Back and shared links work.
+- **Move focus to the step heading** when the person changes step, including with the browser's Back and Forward, and keep the step in the address so Back and shared links work.
+- **Name the step in the page title,** such as "Marin Spec: Resolve (step 3 of 6)", and restore the page's own title on any other tab (WCAG 2.4.2).
 
 ## Flow types
 
